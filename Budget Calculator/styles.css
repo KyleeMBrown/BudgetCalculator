@@ -1,0 +1,446 @@
+html {
+background-image: url("file:///C:/Users/kykyb/Downloads/wallpaperflare.com_wallpaper%20(14).jpg");
+background-size: cover;
+height: 100%;
+width: 100%;
+background-position: center;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(245, 134, 236, 0.288);;
+}
+.title {
+    background-color: rgba(16, 14, 14, 0.627);
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.title-txt {
+    color: white;
+    font-family: Oswald;
+    font-size: 40px;
+    background-color: rgba(245, 134, 236, 0.966);;
+    width: 400px;
+    text-align: center;
+    border-radius: 40px;
+    border-color: black;
+    border-style: solid;
+
+}
+
+
+
+.main{
+    justify-content: center;
+    display: flex;
+    height: calc(100vh - 60px);
+    width: 100%;
+    align-items: center;
+
+}
+
+.calc {
+    background-color: rgba(12, 12, 12, 0.753);
+    width: 650px;
+    height: 85vh;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    justify-content: center;
+    display: flex;
+ 
+}
+
+
+
+.info {
+    position: absolute;
+    display: flex;
+    background-color: none;
+    width: 100%;
+    height: 31vh;
+    margin-top: 150px;
+    background-color: none;
+}
+
+.form1 {
+width: 50%;
+background-color: rgba(255, 255, 255, 0.185);
+height: 31vh;
+text-align: center;
+color: rgba(255, 251, 251, 0.979);
+font-family: monospace;
+font-size: 17px;
+border-radius: 20px;
+align-items: center;
+display: block;
+justify-content: center;
+
+}
+
+.calculations {
+    width: 50%;
+    background-color:none;
+    height: 45vh;
+    display: flex;
+    font-family: monospace;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+
+.outputs {
+    width: 100%;
+    background-color:rgba(245, 134, 236, 0.329);
+    height: 31vh;
+    display: inline-block;
+    font-size: 5px;
+    font-family: monospace;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+
+}
+
+#Wpbtn {
+    background-color: white;
+    color: black;
+    border-color:  rgba(255, 195, 250, 0.873);
+    font-family: monospace;
+    font-size: 15px;
+    border-radius: 8px;
+
+}
+
+#Wpbtn:hover {
+    background-color: rgba(245, 134, 236, 0.873);
+    color: white;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+h3{
+    color: rgb(149, 243, 255);
+    font-size: 22px;
+    background-color: rgba(0, 0, 0, 0.103)
+}
+
+label {
+background-color:   rgba(20, 7, 7, 0.315);
+border-radius: 4px;
+padding: 3px;
+font-size: 17px;
+}
+
+#dollar-sign {
+    margin-right: 3px;
+    color: rgb(5, 245, 5);
+}
+
+.savings-btn {
+height: 60px;
+width: 650px;
+position: absolute;
+margin-top: 523px;
+border-radius: 15px;
+font-size: 30px;
+font-family: monospace;
+font-weight: 800;
+letter-spacing: 3px;
+color:  rgba(12, 12, 12, 0.753);
+background-color: rgba(246, 248, 246, 0.918);
+}
+.savings-btn:hover{
+    background-color: rgba(245, 134, 236, 0.377);
+    height: 60px;
+    width: 650px;
+    cursor: pointer;
+    color: white;
+}
+
+.pcalc {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.expcalc {
+    margin-bottom: 100px;
+    margin-top: 90px;
+    width: 25%;
+    background-color: none;
+    height: 250px;
+    font-size: 10px;
+   
+
+}
+
+.form2 {
+    margin-top: 270px;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    width: 650px;
+    height: 250px;
+    background-color: none;
+    align-items: center;
+    color: white;
+    font-family: monospace;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+.exp-title {
+    background-color:  rgba(245, 134, 236, 0.377);
+    font-size: 8px;
+    width: 150px;
+    border-radius: 13px;
+    color:white;
+    margin-left: 10px;
+    border-style: solid;
+    border-color: white;
+    height: 55px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 10%;
+}
+
+.exp-inp {
+   margin-top: 9px;
+}
+
+.result h1 {
+    font-size: 16px;
+    margin-left: 5px;
+    
+}
+
+.result {
+    width: 92%;
+    height: 95px;
+    background-color: rgba(227, 174, 220, 0.295);
+    margin-top: 18px;
+    border-radius: 20px;
+    border-color: rgba(245, 134, 236, 0.873);
+    border-width: 3px;
+    border-style: solid;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.time-box  {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.144);
+    height: 95px;
+    border-radius: 15px;
+    width: 9.95%;
+    border-style: solid;
+    border-color:  rgba(245, 134, 236, 0.873);
+    color: white;
+}
+
+.numbers {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.315);
+    height: 95px;
+    border-radius: 15px;
+    width: 14%;
+    border-style: solid;
+    border-color:  rgba(245, 134, 236, 0.873);
+    
+}
+
+.exp-label {
+    font-size: 15px;
+}
+
+.scalc {
+    margin-bottom: 100px;
+    margin-top: 90px;
+    width: 29%;
+    background-color: none;
+    height: 250px;
+    font-size: px;
+
+}
+
+.s-title {
+    background-color:  rgba(245, 134, 236, 0.377);
+    font-size: 8px;
+    width: 170px;
+    border-radius: 13px;
+    color:white;
+    margin-left: 10px;
+    border-style: solid;
+    border-color: white;
+    height: 55px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 10%;
+}
+
+.s-inp {
+   margin-top: 20px;
+}
+
+.scalc label {
+    font-size: 15px;
+    background-color: rgba(20, 7, 7, 0.315);
+}
+
+#exp-btn {
+    background-color: white;
+    color: black;
+    border-color:  rgba(245, 134, 236, 0.873);
+    font-family: monospace;
+    font-size: 12px;
+    border-radius: 8px;
+    position: absolute;
+    margin-top: 205px;
+    margin-left: 60px;
+}
+
+#exp-btn:hover {
+    background-color: rgba(245, 134, 236, 0.873);
+    color: white;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+#s-btn {
+    background-color: white;
+    color: black;
+    border-color:  rgba(245, 134, 236, 0.873);
+    font-family: monospace;
+    font-size: 12px;
+    border-radius: 8px;
+    margin-right: 10px;
+   
+}
+
+#s-btn:hover {
+    background-color: rgba(245, 134, 236, 0.873);
+    color: white;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.menu {
+    margin-top: 115px; 
+    display: flex;
+   margin-right: 50px;
+   padding-top: 2.5px;
+   height: 21px;
+
+   align-items: center;
+   
+   
+}
+
+.menu h2 {
+   
+    color: rgba(252, 252, 252, 0.993);
+    display:flex;
+    align-items: center;
+   
+}
+
+.tot-exp-lbl {
+    font-size: 12.5px;
+    margin-right:50px;
+    background-color: rgba(255, 0, 0, 0.356);
+}
+
+.income-lbl {
+    font-size: 14px;;
+    margin-right: 35px;
+    background-color:rgba(0, 255, 255, 0.295);
+
+}
+
+.amt-svd-lbl {
+   font-size: 17.5px;
+    margin-left: 90px;
+    background-color: rgba(14, 250, 14, 0.308);
+    
+   
+}
+
+.tot-exp {
+    color: rgb(253, 76, 76);
+    background-color: rgba(0, 0, 0, 0.315);
+    height: 95px;
+    border-radius: 15px;
+    width: 20%;
+    border-style: solid;
+    border-color:  rgba(245, 134, 236, 0.873);
+    
+}
+
+.resultant {
+    color: rgb(60, 253, 12);
+    background-color: rgba(0, 0, 0, 0.315);
+    height: 95px;
+    border-radius: 15px;
+    width: 65%;
+    border-style: solid;
+    border-color:  rgba(253, 252, 253, 0.873);
+}
+
+.clear-btn {
+    height: 30px;
+    width: 495px;
+    position: absolute;
+    margin-top: 467.5px;
+    border-radius: 6px;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color:  rgba(250, 250, 250, 0.753);
+    background-color: rgba(243, 106, 106, 0.801);
+    margin-left: 150px;
+    }
+
+.clear-btn:hover {
+    height: 30px;
+    width: 495px;
+    background-color:black;
+    cursor: pointer;
+}
+
+.bdgt-s {
+    background-color: rgba(96, 226, 243, 0.438);
+    width: 44.5%;
+    height: 195px;
+    margin-bottom: 75px;
+    border-radius: 20px;
+    display: flex;
+    border: 1px black solid;
+    justify-content: center;
+    
+}
+
+.bdgt-txt {
+    color: white;
+    font-family:monospace;
+    font-size: 13px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 8px;
+}
+
+.bdgt-txt2 {
+    margin-top: 110px;
+    position: absolute;
+    font-size: 13px;
+    padding: 15px;
+}

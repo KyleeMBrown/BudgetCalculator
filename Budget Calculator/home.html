@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Calculator</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="title">
+        <h1 class="title-txt">Budget Calculator</h1>
+    </div>
+    <div class="main">
+        <div class="calc">
+            <div class="result" id="result">
+                <div class="time-box">
+                    <h1>Week:</h1>
+                    <h1>Month:</h1>
+                    <h1>Year:</h1>
+                </div>
+                <div class="numbers">
+                    <h1 id="wnumber"></h1>
+                    <h1 id="mnumber"></h1>
+                    <h1 id="ynumber"></h1>
+                </div>
+                <div class="tot-exp">
+                    <h1 id="w-exp"></h1>
+                    <h1 id="m-exp"></h1>
+                    <h1 id="y-exp"></h1>
+                </div>
+                <div class="resultant">
+                    <h1 id = "wsaved"> </h1>
+                    <h1 id = "msaved"> </h1>
+                    <h1 id = "ysaved"> </h1>
+                </div>
+            </div>
+            <div class="menu">
+                <h2 class="income-lbl">Liq. Income</h2>
+                <h2 class="tot-exp-lbl">Total Expenses</h2>
+                <h2 class="amt-svd-lbl">Amount saved</h2>
+            </div>
+            <div class="info">
+                <div class="form1">
+                    <div class="pcalc">
+                        <label for="Hpay">Hourly Pay:</label><br><br>
+                        <span id="dollar-sign">$</span><input class="input" type="number" min="0" max="200" id="Hpay" name="Hpay"><br><br>
+
+                        <label for="hours"># of Hours</label><br><br>
+                        <input class="input" type="number" min="0" max="72" id="hours" name="hours"><br><br>
+
+                        <label for="days">Days Worked in A week</label><br><br>
+                        <input class="input" type="number" min ="0" max="7" id="days" name="days"><br><br>
+
+                        <button id="Wpbtn" onclick="Pay()">Enter</button><br><br>
+                    </div>
+                </div>
+                <div class="calculations">
+                    <div class="outputs">
+                        <h3 class="Wpay" id="Wpay"></h3>
+                        <h3 class="Mpay" id="Mpay"></h3>
+                        <h3 class="Ypay" id="Ypay"></h3>
+                    </div>
+                    
+                </div>
+                <div class="form2">
+                    <div class="expcalc">
+                        <div class="exp-title">
+                            <h1 class="exp-txt">Monthly Expenses</h1>
+                        </div>
+                        <div class="exp-inp" id="exp-inp">
+
+                        <label for="bills">Bills</label><br><br>
+                        <span id="dollar-sign">$</span><input id="bills" placeholder="Ex: Utilities" class="bills" type="number" min="0" max="6000000"><br><br>
+
+                        <label class="exp-label" for="rent">Rent/House Payment</label><br><br>
+                        <span id="dollar-sign">$</span><input placeholder="$$$" type="number" min="0" max="1000000" name="rent" id="rent"></input><br><br>
+                        
+                        <label for="Nec">Neccessities</label><br><br>
+                        <span id="dollar-sign">$</span><input placeholder="Ex: Food" type="number" min="0" max="1000000" name="nec" id="nec"></input><br><br>
+                        </div>
+                           
+                       
+                    </div>
+                    <button id="exp-btn" onclick="Expenses()">Enter</button>
+                    <div class="scalc">
+                        <div class="s-title">
+                            <h1 class="s-txt">Savings</h1>
+                        </div>
+                        <div class="exp-inp" id="exp-inp">
+
+                        <label for="psaves">Percent you want to save (0.0-1.0)</label><br><br>
+                        <input id="psaves" placeholder="0.0" class="psaves input" type="number" min="0.0" step="0.1" max="1"><br><br>
+
+                        <button onclick="Savings()" id="s-btn">Enter</button>
+                        </div>
+                    </div>
+                    <div class="bdgt-s">
+                        <h2 class="bdgt-txt" id="bdgt-txt"></h2>
+                        <h2 class="bdgt-txt2" id="bdgt-txt2"></h2>
+                    </div>
+                </div>
+                <button class="clear-btn" onclick="Clear()">CLEAR</button>
+                <button class="savings-btn" onclick="Budget()">Budget</button>
+                
+            </div>
+    </div>
+</body>
+</html>
