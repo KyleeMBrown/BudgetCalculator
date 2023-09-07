@@ -3,12 +3,12 @@ A calculator used to keep track of your expenses based on hourly wages. Made wit
 
 This calculator is my first official project using Javascript and has been challenging as well as rewarding!
 
-~ I made this project so me and boyfirend, who are both in college, could keep track of our finances and create a plan based off 
+~ I made this project so me and boyfriend, who are both in college, could keep track of our finances and create a plan based off 
   of the information the calculator generates. I wanted something different than the calculators i've used previously, and 
   I wanted to be able to see the numbers changing and adjusting as I calculated and to be able to go back and manipulate
   my inputs in order to more quickly view the changes. I also wanted the amount saved as well as amount left over to be shown (I've noticed 
   most savings calculators show either the percent you want saved or your income after savings, not both).
-  Lastly I wanted to include a sumarry of what the calculator calculated, and I also wanted to include calculations of 5% above or below the selected savings 
+  Lastly, I wanted to include a summary of what the calculator calculated, and I also wanted to include calculations of 5% above or below the selected savings 
   amount in order to showcase what a little difference could make in their plan. 
 
 JS Problems: 
