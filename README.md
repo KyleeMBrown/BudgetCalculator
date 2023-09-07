@@ -12,14 +12,13 @@ This calculator is my first official project using Javascript and has been chall
   amount in order to showcase what a little difference could make in their plan. 
 
 JS Problems: 
-  One problem that occured weas a function not being called correctly due to an id not being selected using getElementbyId(). 
+  One problem that occured was a function not being called correctly due to an id not being selected using getElementbyId(). 
   The method getElementbyId() is what helps me find the "space" I can fill with my values that I return in my functions. 
   After learning this, I was able to quickly write code: 
 
   Another problem wad clearing the input values. I learned that setting the value equal to an empty string basically erases whatever
-  the user inputed which is really convienent to utiilize with a clear function. 
+  the user inputs which is really convenient to utiilize with a clear function. 
   
-
 HTML & CSS Problems:
   The only problems that occured were certain buttons were not allowing me to style on hover. In order to work around this I 
   placed the button in different parts of my html and that seemed to solve the problem. 
